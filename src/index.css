@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --color-terracotta: #C85A32;
+  --color-terracotta-dark: #A64120;
+  --color-terracotta-light: #F9EFE9;
+  --color-terracotta-soft: #DC6E47;
+
+  --color-moss: #1E3723;
+  --color-moss-deep: #132317;
+  --color-moss-soft: #2E5034;
+  --color-moss-light: #EBF2EC;
+
+  --color-butter: #F4E7B5;
+  --color-butter-light: #FCF8EB;
+  --color-butter-warm: #E2D18B;
+
+  --color-cream: #FAF7F2;
+  --color-cream-soft: #F3EDE2;
+  --color-cream-card: #FFFEFA;
+
+  --color-botanical-dark: #19211A;
+  --color-botanical-text: #2D372F;
+  --color-botanical-muted: #5C6A5E;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Custom fine-grain botanical flourishes */
+.bg-cream-texture {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#E8E0D2 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
+
+.bg-moss-texture {
+  background-color: #1E3723;
+  background-image: radial-gradient(rgba(244, 231, 181, 0.08) 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}

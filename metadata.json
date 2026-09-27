@@ -1,0 +1,6 @@
+{
+  "name": "Compagnoni Giardineria",
+  "description": "Local flower and plant shop with gardening focus in Campascio, Switzerland. Explore flowers, potted plants, and botanical advice at Via Cantonale 215.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
